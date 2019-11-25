@@ -4,6 +4,9 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+node_modules/
+*/node_modules/
+**/node_modules/
 
 # Runtime data
 pids
@@ -59,3 +62,10 @@ typings/
 
 # next.js build output
 .next
+
+
+dist
+**/dist
+
+.cache
+**/.cache
